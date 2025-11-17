@@ -6,8 +6,39 @@
     <script src="https://pyscript.net/latest/pyscript.js"></script>
 
     <py-script>
-        nome = input("Qual seu nome? ")
-        print("Olá,", nome)
+        ## Descrição
+print("O Jogo das Palavras")
+
+## Perguntas
+print("Qual seu nome?")
+nome = str(input())
+
+print("           ")
+
+print("Qual sua idade?")
+idade = int(input())
+
+print("           ")
+
+print("Qual sua comida favorita?")
+comida = str(input())
+## Jogo das Perguntas
+
+while True:
+
+ if nome == "davi":
+     
+    print("primeira parte correta, olá", nome)
+    
+ if idade == 14:
+    print("segunda parte correta, sua idade é", idade)
+    
+ if comida == "pizza":
+     
+    print("Terceira parte correta, comida favorita é", comida)
+    
+ else:
+     print("incorreto, intruso avistado")
     </py-script>
   </body>
 </html>
